@@ -1,0 +1,133 @@
+🌌 SightZen AI – Unified Monitoring + AI RCA Engine (Hackathon Project)
+
+AI-Driven Insights • Tableau / Power BI / Jira / CloudWatch Integration (Sample)
+🧠 Overview
+
+SightZen AI is a unified observability platform combining:
+
+✔ Dashboard Monitoring (sample data)
+✔ AI Assistant for RCA (Root Cause Analysis)
+✔ Jira Ticket Pattern Intelligence
+✔ CloudWatch metrics simulation
+✔ Tableau / Power BI embedded public dashboards
+
+✨ Features
+🤖 2. AI Ops Assistant
+
+Natural-language queries:
+
+“Why CPU high every morning?”
+
+“Where is performance dashboard?”
+
+“What is RCA for high latency?”
+
+Pulls insights from sample logs
+
+Auto-links sample Tableau / Power BI dashboards
+
+🐞 3. Jira Ticket Pattern Analyzer
+
+Uses 20+ sample Jira logs
+
+Matches patterns using:
+
+problem text
+
+root-cause
+
+solution
+
+category
+
+Provides correct RCA based on similarity score
+
+📊 4. Sample Multi-Tool Integration
+
+(All demo/public links)
+
+Tool	Integration Type
+Tableau	Public dashboards (sample)
+Power BI	Public dashboards (sample)
+CloudWatch	Sample CPU/Mem/IOPS JSON
+Jira	20-ticket sample dataset
+🖥 Tech Stack
+Frontend
+React + Vite
+TailwindCSS
+Chart.js
+Backend
+
+Node.js + Express
+
+Sample JSON based mock APIs
+
+🚀 Quick Start Instructions
+Install & Run Backend
+cd backend
+npm install
+npm start
+
+
+Backend runs on:
+👉 http://localhost:5000
+
+Install & Run Frontend
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on:
+👉 http://localhost:3000
+
+📁 Project Structure
+SightZenAI/
+├── backend/
+│   ├── data/
+│   │   ├── dashboard.json
+│   │   ├── cloudwatch.json
+│   │   ├── jira_cases.json
+│   │   └── reports.json
+│   ├── public/reports/
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── src/components/
+│   ├── src/index.css
+│   ├── src/App.jsx
+│   ├── package.json
+│   └── tailwind.config.js
+│
+└── README.md
+
+🧩 Key Endpoints (Backend)
+Endpoint	Description
+/dashboard	Returns CPU/Incident sample data
+/cloudwatch	CloudWatch-style sample metrics
+/reports	Links of Tableau/Power BI dashboards
+/jira/search?query=	Fuzzy matching for Jira logs
+/ask-ai	Natural language RCA engine
+
+🏆 
+✔ AI + Monitoring = trending domain
+✔ No real credentials required (safe demo!)
+✔ Multi-platform integration
+✔ Strong RCA logic using ticket patterns
+✔ Production-like UI/UX
+✔ Clear architecture & easy setup
+
+👩‍💻 Future Enhancements
+
+Real Jira API integration
+
+Real AWS CloudWatch metrics
+
+Full anomaly detection model
+
+Auto-healing workflows
+
+❤️ Author
+
+SightZen AI by Sai Harshitha
